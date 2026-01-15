@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Drill 1</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body 
+        {
+            background-image: url(https://i.pinimg.com/736x/0f/20/ff/0f20fff108219fc11e56ac99430a5247.jpg);
+        }
+    </style>
+
+</head>
+<body>
+    <br>
+<div class="container" style="border-radius: 20px; background-color: #2b7fd4;">
+    <h1 class="text-center text-light">Basic Calculator</h1>
+</div>
+<br>
+
+
+
+<center>
+<div class="container text-light" style="border-radius: 20px; padding: 10px; background-color: #2b7fd4;"> John and Emma are sharing pringles. If there are 10 pringles, and Emma ate 7 pringles, how many pringles are left for John?Click display to see the answer. </div>
+<br>
+
+<button type="button" class="btn btn-danger display-1" 
+style="width: 100px; font-size: 15px;"
+onclick="document.getElementById('result').innerHTML= equation;">Display</button>
+<br><br>
+
+
+<p class="text-success text-center" id="result"></p> 
+
+
+
+<script>
+    var equation = "3"
+    var number = 10 - 7; <!-- this is the equation -->
+
+</script>
+
+
+</body>
+</html>
